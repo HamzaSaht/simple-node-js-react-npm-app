@@ -9,5 +9,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: pwd
+      - run: echo 123 > test123.txt
       - run: yarn build
